@@ -96,11 +96,12 @@ public class RiskFragment extends Fragment {
 
     public static int calcCombat(int i)
     {
-        double b = 0, rng;
+        int b = 0;
+        double rng;
         for(int a = 1; a <= i; a++)
         {
             rng = Math.random()*6+1;
-            b += rng;
+            b += (int) rng;
         }
         return (int) b;
     }

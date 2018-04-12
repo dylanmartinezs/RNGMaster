@@ -103,7 +103,7 @@ public class RiskFragment extends Fragment {
             rng = Math.random()*6+1;
             b += (int) rng;
         }
-        return (int) b;
+        return b;
     }
 
 }

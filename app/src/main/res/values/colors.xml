@@ -17,8 +17,8 @@
     <color name="appTextColorBlack">#fff</color>
 
     <!-- In App Colors -->
-    <color name="greenColor">#1aba2a</color>
-    <color name="lightGreenColor">#44dd5d</color>
+    <color name="greenColor">#20cf66</color>
+    <color name="lightGreenColor">#44dd7c</color>
 
     <color name="redColor">#ba2a2a</color>
     <color name="lightRedColor">#ca4a4a</color>

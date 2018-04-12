@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1d1d1d</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF5555</color>
+
+    <!-- Light Theme -->
+    <color name="appBackgroundColorLight">#fff</color>
+    <color name="appTextColorLight">#111111</color>
+
+    <!-- Dark Theme -->
+    <color name="appBackgroundColorDark">#1d1d1d</color>
+    <color name="appTextColorDark">#efefef</color>
+
+    <!-- Black Theme -->
+    <color name="appBackgroundColorBlack">#000</color>
+    <color name="appTextColorBlack">#fff</color>
+
+    <!-- In App Colors -->
+    <color name="greenColor">#1aba2a</color>
+    <color name="lightGreenColor">#44dd5d</color>
+
+    <color name="redColor">#ba2a2a</color>
+    <color name="lightRedColor">#ca4a4a</color>
+
+    <color name="blueColor">#5767ba</color>
+    <color name="lightBlueColor">#7a8ada</color>
+</resources>

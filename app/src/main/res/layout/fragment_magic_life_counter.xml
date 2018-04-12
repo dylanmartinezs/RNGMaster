@@ -1,0 +1,174 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?actionBarSize"
+    android:background="@color/appBackgroundColorDark"
+    tools:context="subs.igware.com.rngmaster.MagicLifeCounter">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout3"
+        android:layout_width="368dp"
+        android:layout_height="234dp"
+        android:layout_marginBottom="11dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/greenColor"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/player1Plus1"
+            android:layout_width="61dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:layout_marginStart="16dp"
+            android:background="@color/lightGreenColor"
+            android:scaleX="-1"
+            android:scaleY="-1"
+            android:text="+ 1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/player1Plus10"
+            android:layout_width="61dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="34dp"
+            android:background="@color/lightGreenColor"
+            android:scaleX="-1"
+            android:scaleY="-1"
+            android:text="+ 10"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/player1Minus1"
+            android:layout_width="61dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/lightRedColor"
+            android:scaleX="-1"
+            android:scaleY="-1"
+            android:text="- 1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/player1Minus10"
+            android:layout_width="61dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="19dp"
+            android:layout_marginTop="35dp"
+            android:background="@color/lightRedColor"
+            android:scaleX="-1"
+            android:scaleY="-1"
+            android:text="- 10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/player1Lives"
+            android:layout_width="88dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="76dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="77dp"
+            android:scaleX="-1"
+            android:scaleY="-1"
+            android:text="20"
+            android:textAlignment="center"
+            android:textColor="@color/appTextColorLight"
+            android:textSize="60dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout4"
+        android:layout_width="368dp"
+        android:layout_height="234dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="11dp"
+        android:background="@color/blueColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout3">
+
+        <Button
+            android:id="@+id/player2Plus1"
+            android:layout_width="61dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="46dp"
+            android:background="@color/lightBlueColor"
+            android:text="+ 1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/player2Plus10"
+            android:layout_width="61dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="38dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/lightBlueColor"
+            android:text="+ 10"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/player2Minus1"
+            android:layout_width="61dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="46dp"
+            android:background="@color/lightRedColor"
+            android:text="- 1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/player2Minus10"
+            android:layout_width="61dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="38dp"
+            android:layout_marginStart="16dp"
+            android:background="@color/lightRedColor"
+            android:text="- 10"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/player2Lives"
+            android:layout_width="88dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="20"
+            android:textAlignment="center"
+            android:textColor="@color/appTextColorLight"
+            android:textSize="60dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>
